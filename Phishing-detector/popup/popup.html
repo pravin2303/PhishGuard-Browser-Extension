@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>PhishGuard Detector</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>PhishGuard</h1>
+    <div id="status" class="status">
+      <div class="loader"></div>
+      <p>Analyzing current page...</p>
+    </div>
+    <div id="results" class="results hidden">
+      <h2>Security Analysis</h2>
+      <div class="result-item">
+        <span class="label">Status:</span>
+        <span id="phishing-status" class="value safe">Safe</span>
+      </div>
+      <div class="result-item">
+        <span class="label">Heuristic Score:</span>
+        <span id="heuristic-score" class="value">0/100</span>
+      </div>
+      <div class="result-item">
+        <span class="label">ML Confidence:</span>
+        <span id="ml-confidence" class="value">0%</span>
+      </div>
+      <button id="details-btn">View Details</button>
+    </div>
+    <div class="settings">
+      <h3>Settings</h3>
+      <label>
+        <input type="checkbox" id="enable-heuristics" checked>
+        Enable heuristic checks
+      </label>
+      <label>
+        <input type="checkbox" id="enable-ml" checked>
+        Enable ML detection
+      </label>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
