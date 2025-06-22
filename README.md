@@ -4,8 +4,6 @@
 
 PhishGuard is a lightweight browser extension that detects phishing websites using heuristic analysis and machine learning.
 
-![PhishGuard Warning](docs/screenshots/warning.png)
-
 ## Features
 - Real-time phishing detection
 - Heuristic URL analysis
@@ -16,7 +14,7 @@ PhishGuard is a lightweight browser extension that detects phishing websites usi
 
 ## Installation
 1. Clone this repository:  
-   `git clone https://github.com/YOUR-USERNAME/PhishGuard-Browser-Extension.git`
+   `git clone https://github.com/pravin2303/PhishGuard-Browser-Extension.git`
 2. Load unpacked extension in Chrome:
    - Go to `chrome://extensions`
    - Enable "Developer mode"
