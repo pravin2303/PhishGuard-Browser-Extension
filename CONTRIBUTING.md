@@ -14,9 +14,9 @@
 
 ## Submitting Changes
 1. Commit your changes:  
-   `git commit -m "Add your meaningful message here"`
+    git commit -m 
 2. Push to your fork:  
-   `git push origin feature/your-feature-name`
+    git push origin Phishing/PhishGuard-detector
 3. Open a pull request against the main repository
 
 ## Code Style
