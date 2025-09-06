@@ -31,4 +31,4 @@ PhishGuard is a lightweight browser extension that detects phishing websites usi
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## License
-[MIT License](LICENSE)
+[MIT License](LICENSE) 
